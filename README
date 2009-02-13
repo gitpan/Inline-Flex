@@ -1,0 +1,17 @@
+Flex
+====
+
+'Inline module to use flex generated lexers'
+
+
+INSTALLATION
+------------
+
+To install this module type the following:
+
+   perl Build.PL
+   ./Build
+   ./Build test
+   ./Build install
+
+

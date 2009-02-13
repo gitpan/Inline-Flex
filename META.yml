@@ -1,0 +1,26 @@
+---
+name: Inline-Flex
+version: 0.01_01.2
+author:
+  - 'Nadim ibn hamouda el Khemir. <nkh@cpan.org>'
+abstract: Inline module to use flex generated lexers
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Readonly: 0
+  Sub::Exporter: 0
+build_requires:
+  Test::Block: 0
+  Test::Exception: 0
+  Test::NoWarnings: 0
+  Test::Warn: 0
+  Text::Diff: 0
+provides:
+  Inline::Flex:
+    file: lib/Inline/Flex.pm
+    version: 0.01_01
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
